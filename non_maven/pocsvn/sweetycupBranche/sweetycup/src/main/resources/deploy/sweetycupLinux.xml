@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context
+	docBase="/home/chuck/Documents/Dropbox/info/personalProjects/SVN/trunk/sweetycup/target/mysample-0.0.1-SNAPSHOT">
+	<Resource
+		name="jdbc/sweetycup"
+		driverClassName="com.mysql.jdbc.Driver"
+		type="javax.sql.DataSource"
+		factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+		auth="Container"
+		url="jdbc:mysql://localhost:3306/scup"
+		username="root"
+		password="root"
+		/>
+	
+</Context>

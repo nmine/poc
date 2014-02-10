@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+
+.error {
+  color: red;
+}
+
+.info {
+  color: green;
+}
+
+.coin-slider {
+	padding: 25px;
+}
