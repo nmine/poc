@@ -1,2 +1,0 @@
-serviceClass: be.nmine.client.GreetingService
-path: E17DBDD0EBC8C30E4449DB774B65925F.gwt.rpc
