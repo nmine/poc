@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My site</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<script type="text/javascript" src="js/model.js"></script>
+<script data-main="js/main" src="js/require.js"></script>
+<script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+<!-- <script type="text/javascript" src="js/navigation.js"></script> -->
+<script type="text/javascript" src="js/canvas.js"></script>
+<script src="js/vendor/underscore.js"></script>
+<script src="js/vendor/backbone.js"></script>
+<script src="js/vendor/backbone.marionette.js"></script>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<!--<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'>-->
+<link href="css/font-awesome.css" rel="stylesheet">
+</head>
+<body>
+	<header class="headear-main">
+		<div class="header-top">
+			<nav>
+				<ul>
+					<li><a id="presentation-link-head">Presentation</a></li>
+					<li><a id="contact-link-head">Contact</a></li>
+					<li><a id="listing-link-head">Listing</a></li>
+				</ul>
+			</nav>
+<!-- 			<audio controls class="audio-controls"> -->
+<!-- 				<source src="music/FrankSinatra-LetItSnow.mp3" type="audio/mp3"> -->
+<!-- 				Your browser does not support the audio element. -->
+<!-- 			</audio> -->
+		</div>
+		<section class="header-down">
+			<!--<h3 class="title-name">Nicolas Mine</h3>-->
+			<span class="header-name-author">Nicolas Mine </span> <img
+				class="img-header" src="img/ironman_III.png" alt="" /> <span
+				class="header-name-title">MyTitle</span>
+			<!--<h1 class="title-main">MySite</h1>-->
+			<canvas id="canvas"></canvas>
+		</section>
+
+	</header>
+	<section class="container">
+		<!--presentation-->
+		<section id="presentation">
+			<nav class="block">
+				<ul class="right-menu-list">
+					<li class="active menu-item"><i
+						class="fa fa-external-link fa-lg"></i><span class="menu-label">Link</span></li>
+					<li class="menu-item"><i class="fa fa-home fa-lg"></i><span
+						class="menu-label">Link</span></li>
+					<li class="menu-item"><i class="fa fa-book fa-lg"></i><span
+						class="menu-label">Link</span></li>
+					<li class="menu-item"><i class="fa fa-pencil fa-lg"></i><span
+						class="menu-label">Link</span></li>
+					<li class="menu-item"><i class="fa fa-cogs fa-lg"></i><span
+						class="menu-label">Link</span></li>
+					<li class="menu-item"><i class="fa fa-camera fa-lg"></i><span
+						class="menu-label">Link</span></li>
+					<li class="menu-item"><i class="fa fa-pencil-square-o fa-lg"></i><span
+						class="menu-label">Link</span></li>
+					<li class="menu-item"><i class="fa fa-desktop fa-lg"></i><span
+						class="menu-label">Link</span></li>
+					<li class="menu-item"><i class="fa fa-reply fa-lg"></i><span
+						class="menu-label">Link</span></li>
+				</ul>
+			</nav>
+			<article class="block">
+				<h1>Article title</h1>
+				<header>Header article</header>
+				<p>Lorem i psum dolor sit amet, consectetur adipiscing elit.
+					Quisque aliquam eu eros id iaculis. Cras euismod condimentum felis,
+					sagittis sollicitudin odio dictum sit amet. Aliquam molestie
+					sagittis bibendum. Quisque iaculis et nisi a sodales. Etiam
+					eleifend sodales nunc, non suscipit turpis vestibulum suscipit.
+					Maecenas condimentum, risus a consequat semper, tellus nunc pretium
+					felis, eu congue mauris neque et ligula. In cursus volutpat ligula
+					quis blandit. Morbi rhoncus diam turpis, ac convallis nunc
+					consectetur quis. Aenean porta purus a nulla aliquam mollis. Nulla
+					justo felis, sodales et nulla at, hendrerit varius ligula. Quisque
+					hendrerit ipsum et tortor cursus vulputate. Etiam euismod, orci a
+					euismod feugiat, tellus neque accumsan metus, sit amet cursus odio
+					massa a ligula. Nunc enim ligula, euismod quis vehicula eget,
+					pellentesque id erat. Maecenas at dolor elementum magna elementum
+					consectetur. Sed malesuada nibh lacinia ligula pulvinar, quis
+					pulvinar est blandit. Etiam eros tellus, gravida eleifend fringilla
+					quis, tempor sit amet urna. Praesent auctor suscipit ligula non
+					dapibus. Donec mattis quam sed risus dictum tempor. Phasellus
+					sagittis, ipsum sed auctor convallis, nunc arcu placerat quam, et
+					venenatis massa ante vel est. Aliquam at urna tincidunt, tempor
+					augue at, vestibulum sem. Phasellus lectus enim, lacinia ut
+					ultricies eu, tristique ut mi.</p>
+				<h1>Article title</h1>
+				<header>Header article</header>
+				<p>Vivamus vitae dapibus nunc. Duis posuere nunc urna, vel
+					hendrerit nisi ornare vel. Maecenas tortor purus, facilisis eget mi
+					ut, scelerisque laoreet urna. In egestas ultricies nulla ac tempus.
+					Sed et semper tortor, venenatis pellentesque metus. In hac
+					habitasse platea dictumst. Vestibulum porttitor purus lorem, sit
+					amet pharetra sapien vehicula ac. Vestibulum tempus nisl dictum
+					arcu egestas luctus. Praesent nec est scelerisque, adipiscing velit
+					nec, gravida metus. Nullam in tellus sit amet odio molestie
+					pharetra. Vivamus quis aliquam ante, sed porta libero. Nam faucibus
+					feugiat faucibus. Nullam at semper augue. Praesent aliquet sit amet
+					est vitae euismod. Praesent turpis orci, vulputate at pulvinar vel,
+					gravida vehicula tellus. Morbi sed aliquet nisi, in scelerisque
+					ipsum. In in pretium elit. Maecenas id lorem pretium, fermentum mi
+					a, semper</p>
+			</article>
+			<section class="block right-top-block">
+				<article class="details">
+					<span class="profil-details">Mine Nicolas</span> <span
+						class="profil-details"><img src="img/profil.jpg"
+						style="width: 100px;" /></span> <span class="profil-details"><i
+						class="fa fa-dot-circle-o"></i>Java Developer</span> <span
+						class="profil-details"><i class="fa fa-cloud"></i><a
+						href="http://nicolas-mine.blogspot.be">Personnal Blog</a></span> <span
+						class="profil-details"><i class="fa fa-phone"></i>0472 53
+						70 24</span> <span class="profil-details"><i
+						class="fa fa-envelope-o"></i><a
+						href="mailto:nicolas.mine11@gmail.com"> My mail</a></span>
+				</article>
+			</section>
+			<article class="block right-bottom-block">Nullam in tellus
+				sit amet odio molestie pharetra. Vivamus quis aliquam ante, sed
+				porta libero. Nam faucibus feugiat faucibus. Nullam at semper augue.
+			</article>
+			<article class="block bottom-block">Suspendisse iaculis
+				consequat ligula, sit amet pellentesque mauris pellentesque id.
+				Vivamus id velit at massa vehicula blandit. Curabitur ut faucibus
+				tortor. Quisque varius lorem nec orci consectetur aliquet eget ut
+				elit. Phasellus velit massa, imperdiet eu metus quis, dictum rutrum
+				risus. Nulla facilisi. Fusce varius sit amet elit et malesuada. Sed
+				vel dignissim risus.</article>
+		</section>
+		<!--end presentation-->
+
+		<!--contact-->
+		<section id="contact">
+			<section class="block article-block-left">
+				<article>
+					<div class="cart-grid-left">
+						<img src="img/employee.png" style="width: 190px;" />
+					</div>
+					<div class="cart-grid-rigth">
+						<h3>Profile</h3>
+						<p class="profile-cart">Nullam in tellus sit amet odio
+							molestie pharetra. Vivamus quis aliquam ante, sed porta libero.
+							Nam faucibus feugiat faucibus.</p>
+						<p class="details-cart">
+							<span class="cart-button">Name</span> John Doe
+						</p>
+						<p class="details-cart">
+							<span class="cart-button">Job</span> Developer
+						</p>
+						<p class="details-cart">
+							<span class="cart-button">Phone</span> +00 231 293-1475
+						</p>
+						<p class="details-cart">
+							<span class="cart-button">Email</span><a
+								href="mailto:info@johndoe.com"> info@johndoe.com</a>
+						</p>
+					</div>
+				</article>
+			</section>
+			<section class="block article-block-left">
+				<article>
+					<div class="cart-grid-left">
+						<img src="img/employee2.png" style="width: 190px;" />
+					</div>
+					<div class="cart-grid-rigth">
+						<h3>Profile</h3>
+						<p class="profile-cart">Nullam in tellus sit amet odio
+							molestie pharetra. Vivamus quis aliquam ante, sed porta libero.
+							Nam faucibus feugiat faucibus.</p>
+						<p class="details-cart">
+							<span class="cart-button">Name</span> Cyrus Smith
+						</p>
+						<p class="details-cart">
+							<span class="cart-button">Job</span> Developer
+						</p>
+						<p class="details-cart">
+							<span class="cart-button">Phone</span> +00 231 293-1475
+						</p>
+						<p class="details-cart">
+							<span class="cart-button">Email</span><a
+								href="mailto:info@misteriousisland.com">info@misteriousisland.com</a>
+						</p>
+					</div>
+				</article>
+			</section>
+			<section class="block article-block-left">
+				<article>
+
+					<div class="cart-grid-left">
+						<img src="img/employee3.png" style="width: 190px;" />
+					</div>
+					<div class="cart-grid-rigth">
+						<h3>Profile</h3>
+						<p class="profile-cart">Nullam in tellus sit amet odio
+							molestie pharetra. Vivamus quis aliquam ante, sed porta libero.
+							Nam faucibus feugiat faucibus.</p>
+						<p class="details-cart">
+							<span class="cart-button">Name</span> Jane Doe
+						</p>
+						<p class="details-cart">
+							<span class="cart-button">Job</span> Developer
+						</p>
+						<p class="details-cart">
+							<span class="cart-button">Phone</span> +00 231 293-1475
+						</p>
+						<p class="details-cart">
+							<span class="cart-button">Email</span><a
+								href="mailto:info@janDoe.com">info@janDoe.com</a>
+						</p>
+					</div>
+				</article>
+			</section>
+			<section class="block article-block-left">
+				<article>
+					<div class="cart-grid-left">
+						<img src="img/employee4.png" style="width: 190px;" />
+					</div>
+					<div class="cart-grid-rigth">
+						<h3>Profile</h3>
+						<p class="profile-cart">Nullam in tellus sit amet odio
+							molestie pharetra. Vivamus quis aliquam ante, sed porta libero.
+							Nam faucibus feugiat faucibus.</p>
+						<p class="details-cart">
+							<span class="cart-button">Name</span> Terry Pratchett
+						</p>
+						<p class="details-cart">
+							<span class="cart-button">Job</span> Developer
+						</p>
+						<p class="details-cart">
+							<span class="cart-button">Phone</span> +00 231 293-1475
+						</p>
+						<p class="details-cart">
+							<span class="cart-button">Email</span><a
+								href="mailto:info@janDoe.com">info@janDoe.com</a>
+						</p>
+					</div>
+				</article>
+			</section>
+		</section>
+		<!--contact-->
+
+		<!--Listing-->
+		<section id="listing">
+			<section class="block article-block-listing">
+				<!-- Filled at runtime by JS -->
+			</section>
+			<div id="listingPerson">
+			</div>
+			<script type="text/template" id="persons-template">
+  				<thead>
+    				<tr class='header'>
+      					<th>FirsNname</th>
+      					<th>LastName</th>
+    				</tr>
+  				</thead>
+  				<tbody>
+  				</tbody>
+			</script>
+			<script type="text/template" id="person-template">
+  				<td><%= firstName ></td>
+  				<td><%= lastName ></td>
+			</script>
+		</section>
+		<!--End Listing-->
+
+		<!--Create Person-->
+		<section id="create">
+			<section class="block article-block-form">
+				<form role="form" class="form-create">
+					<div class="row">
+						<label class="form-label" for="form-firstname">First name</label>
+						<input class="form-input" type="text" id="form-firstname"
+							placeholder="firstname" />
+					</div>
+					<div class="row">
+						<label class="form-label" for="form-lastname">Last name</label> <input
+							class="form-input" type="text" id="form-lastname"
+							placeholder="lastname" />
+					</div>
+					<div class="row">
+						<label class="form-label" for="form-email">Email</label> <input
+							class="form-input" type="text" id="form-email"
+							placeholder="email" />
+					</div>
+					<div class="row">
+						<label class="form-label" for="form-phone">Phone number</label> <input
+							class="form-input" type="text" id="form-phone"
+							placeholder="phone" />
+					</div>
+					<div class="row">
+						<label class="form-label" for="form-city">City</label> <input
+							class="form-input" type="text" id="form-city" placeholder="city" />
+					</div>
+					<div class="row">
+						<label class="form-label" for="form-postalcode">Postal
+							code</label> <input class="form-input" type="text" id="form-postalcode"
+							placeholder="postalcode" />
+					</div>
+					<div class="row">
+						<label class="form-label" for="form-job">Job</label> <input
+							class="form-input" type="text" id="form-job" placeholder="job" />
+					</div>
+					<a class="form-submit" id="submit-person">Submit</a>
+				</form>
+			</section>
+		</section>
+		<!--End Create-->
+
+		<!--Update Person-->
+		<section id="update">
+			<section class="block article-block-form">
+				<form role="form" class="form-update" action="#">
+					<div class="row">
+						<label class="form-label" for="form-modify-firstname">First
+							name</label> <input class="form-input" type="text"
+							id="form-modify-firstname" name="firstName" placeholder="firstname" required />
+					</div>
+					<div class="row">
+						<label class="form-label" for="form-modify-lastname">Last
+							name</label> <input class="form-input" type="text"
+							id="form-modify-lastname" placeholder="lastname" required/>
+					</div>
+					<div class="row">
+						<label class="form-label" for="form-modify-email">Email</label> <input
+							class="form-input" type="email" id="form-modify-email"
+							placeholder="email" required/>
+					</div>
+					<div class="row">
+						<label class="form-label" for="form-modify-phone">Phone
+							number</label> <input class="form-input" type="text"
+							id="form-modify-phone" placeholder="phone" required/>
+					</div>
+					<div class="row">
+						<label class="form-label" for="form-modify-city">City</label> <input
+							class="form-input" type="text" id="form-modify-city"
+							placeholder="city" required/>
+					</div>
+					<div class="row">
+						<label class="form-label" for="form-modify-postalcode">Postal
+							code</label> <input class="form-input" type="text"
+							id="form-modify-postalcode" placeholder="postalcode"  max="4" required/>
+					</div>
+					<div class="row">
+						<label class="form-label" for="form-modify-job">Job</label> <input
+							class="form-input" type="text" id="form-modify-job"
+							placeholder="job" required/>
+					</div>
+					<button type="submit" class="form-submit" id="submit-modification-person">Submit</button>
+				</form>
+			</section>
+		</section>
+		<!--End Create-->
+
+		<!--contact-->
+
+	</section>
+	<footer class="footer-main">
+		<img src="img/js-logo-badge-256.png" class="js-footer-logo" /> <img
+			src="img/css3_logo.png" class="footer-logo" /> <img
+			src="img/HTML5_Logo.png" class="footer-logo" />
+		<div class="footer-text">
+			Nicolas Mine 2013 <a>n.mine@students.ephec.be</a>
+		</div>
+
+	</footer>
+	<script type="text/javascript">
+	function Animal(id,name) {
+		var id = 0;
+		var name = name;
+		
+		this.getId = function(){
+			return id;
+		};
+		this.getName = function(){
+			return name;
+		};
+	}
+	
+	function Mammal(){};
+	//Mammal is a Animal  <- prototype of animal binded to animal constructor
+	Mammal.prototype = new Animal();
+// 	Mammal.prototype = Animal.prototype; -> doesn't work
+	 
+	</script>
+</body>
+</html>

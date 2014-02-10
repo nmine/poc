@@ -1,0 +1,26 @@
+[0m[[0minfo[0m] [0mUpdating {file:/home/chuck/Documents/Dropbox/info/personalProjects/git/poc/pocplay/}pocplay...[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/com/google/guava/guava/14.0/guava-14.0.jar ...[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.google.guava#guava;14.0!guava.jar(bundle) (1097ms)[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.18/mysql-connector-java-5.1.18.jar ...[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] mysql#mysql-connector-java;5.1.18!mysql-connector-java.jar (856ms)[0m
+[0m[[0minfo[0m] [0mdownloading http://repo.scala-sbt.org/scalasbt/sbt-plugin-snapshots/securesocial/securesocial_2.10/master-SNAPSHOT/jars/securesocial_2.10.jar ...[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] securesocial#securesocial_2.10;master-SNAPSHOT!securesocial_2.10.jar (1664ms)[0m
+[0m[[0minfo[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play-plugins-util_2.10/2.1.0/play-plugins-util_2.10-2.1.0.jar ...[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe#play-plugins-util_2.10;2.1.0!play-plugins-util_2.10.jar (671ms)[0m
+[0m[[0minfo[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/com/typesafe/play-plugins-mailer_2.10/2.1.0/play-plugins-mailer_2.10-2.1.0.jar ...[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe#play-plugins-mailer_2.10;2.1.0!play-plugins-mailer_2.10.jar (787ms)[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/mindrot/jbcrypt/0.3m/jbcrypt-0.3m.jar ...[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.mindrot#jbcrypt;0.3m!jbcrypt.jar (148ms)[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/ow2/spec/ee/ow2-atinject-1.0-spec/1.0.10/ow2-atinject-1.0-spec-1.0.10.jar ...[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.ow2.spec.ee#ow2-atinject-1.0-spec;1.0.10!ow2-atinject-1.0-spec.jar(bundle) (143ms)[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/com/cedarsoft/guice-annotations/2.0.1/guice-annotations-2.0.1.jar ...[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.cedarsoft#guice-annotations;2.0.1!guice-annotations.jar (143ms)[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/com/intellij/annotations/7.0.3/annotations-7.0.3.jar ...[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.intellij#annotations;7.0.3!annotations.jar (143ms)[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/apache/commons/commons-email/1.2/commons-email-1.2.jar ...[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.apache.commons#commons-email;1.2!commons-email.jar (154ms)[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/javax/mail/mail/1.4.1/mail-1.4.1.jar ...[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] javax.mail#mail;1.4.1!mail.jar (444ms)[0m
+[0m[[0minfo[0m] [0mdownloading http://repo.typesafe.com/typesafe/releases/javax/activation/activation/1.1/activation-1.1.jar ...[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] javax.activation#activation;1.1!activation.jar (851ms)[0m
+[0m[[0minfo[0m] [0mDone updating.[0m

@@ -1,0 +1,4 @@
+[0m[[0minfo[0m] [0mCompiling 2 Scala sources and 1 Java source to /home/chuck/Documents/Dropbox/info/personalProjects/git/poc/pocplay/target/scala-2.10/classes...[0m
+[0m[[33mwarn[0m] [0m/home/chuck/Documents/Dropbox/info/personalProjects/git/poc/pocplay/conf/routes:13: unreachable code[0m
+[0m[[33mwarn[0m] [0mGET 	/products/save 	controllers.Products.save()[0m
+[0m[[33mwarn[0m] [0mone warning found[0m

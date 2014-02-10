@@ -1,0 +1,65 @@
+@(articles: Set[Article],commentForm: Form[Comments])
+@import helper._
+@import helper.twitterBootstrap._
+@main("Sweety cup") {
+    <h2>left content</h2>
+    @for(article <- articles) {
+      @if(article.getTemplate == 1) {
+          <article class="article">
+              <header>
+                  <pre><div>@article.getTitle</div></pre>
+                  <div>@article.getAuthor</div>
+              </header>
+              <div>
+                  @article.getContent
+              </div>
+              <aside>
+                @article.getAsideContent
+              </aside>
+              <footer>
+                  @article.getFooterContent
+              </footer>
+          </article>
+      }
+    }
+    	<h4>formular</h4>
+	   @if(flash.containsKey("success")){
+			      <div class="alert alert-success">
+			      @flash.get("success")
+				      </div>
+	   }
+	   @if(flash.containsKey("error")){
+				    <div class="alert alert-error">
+				    @flash.get("error")
+				    </div>
+	  }
+	  @helper.form(action = routes.Application.saveComments(),
+	    'enctype -> "multipart/form-data") {
+	    <fieldset>
+	    @helper.inputText(commentForm("author"))
+	    @helper.textarea(commentForm("content"))
+	    </fieldset>
+	    <input type="submit" class="btn btn-primary">
+	  }
+} {
+    <h2>left content</h2>
+    @for(article <- articles) {
+        @if(article.getTemplate == 2) {
+          <article class="article">
+          <header>
+              <pre><div>@article.getTitle</div></pre>
+              <div>@article.getAuthor</div>
+          </header>
+          <div>
+              @article.getContent
+          </div>
+          <aside>
+            @article.getAsideContent
+          </aside>
+          <footer>
+              @article.getFooterContent
+          </footer>
+          </article>
+        }
+    }
+}

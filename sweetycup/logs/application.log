@@ -1,0 +1,12 @@
+2013-09-10 01:42:27,799 - [INFO] - from play in main 
+Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+
+2013-09-10 01:42:30,645 - [INFO] - from play in play-internal-execution-context-1 
+datasource [jdbc:mysql://localhost:3306/sweetycup] bound to JNDI as DefaultDS
+
+2013-09-10 01:42:30,843 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:mysql://localhost:3306/sweetycup
+
+2013-09-10 01:42:31,278 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+

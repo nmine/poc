@@ -1,0 +1,64 @@
+premier check out svn co 
+apres commit d'un fichier txt -> revision 11 
+mais svn ls -r HEAD donne des numero de version differents pour chaque fichier (?)
+svn st -u donne -> revision 11
+svn log -r HEAD donne juste le dernier commit du fichier text
+apres svn copy trunk branch
+svn copy https://subversion.assembla.com/svn/sweetycup/trunk/sweetycup https://subversion.assembla.com/svn/sweetycup/branches/sweetycup -m 'create branches of the trunk'
+
+Committed revision 12.
+
+
+sur la branche apre checkout svn log 
+ svn log
+------------------------------------------------------------------------
+r12 | nmine | 2014-01-05 03:14:11 +0100 (dim., 05 janv. 2014) | 1 line
+
+create branches of the trunk
+------------------------------------------------------------------------
+r11 | nmine | 2014-01-05 03:06:05 +0100 (dim., 05 janv. 2014) | 1 line
+
+add log text to infos
+------------------------------------------------------------------------
+r10 | nmine | 2013-10-04 19:32:26 +0200 (ven., 04 oct. 2013) | 1 line
+
+-- adding jquery notify on validation form success
+------------------------------------------------------------------------
+r9 | nmine | 2013-09-30 19:44:16 +0200 (lun., 30 sept. 2013) | 2 lines
+
+-- adding error form handling based on jsr303
+-- remove project of dropbox
+------------------------------------------------------------------------
+r8 | nmine | 2013-09-27 02:46:50 +0200 (ven., 27 sept. 2013) | 2 lines
+
+-- adding mail sending functionnality
+-- sending form work but at return /article/index return a exception
+------------------------------------------------------------------------
+r7 | nmine | 2013-09-25 18:00:07 +0200 (mer., 25 sept. 2013) | 2 lines
+
+-- adding possibility to display image (filter in the servlet)
+-- removing XML Spring config file
+------------------------------------------------------------------------
+r6 | nmine | 2013-09-25 13:29:02 +0200 (mer., 25 sept. 2013) | 1 line
+
+-- move the applicationContext and remove it's refence in the web.xml
+------------------------------------------------------------------------
+r5 | nmine | 2013-09-25 04:39:33 +0200 (mer., 25 sept. 2013) | 2 lines
+
+-- adding html table for comment
+-- adding jquery slider
+------------------------------------------------------------------------
+r4 | nmine | 2013-09-24 18:00:00 +0200 (mar., 24 sept. 2013) | 2 lines
+
+-- Config Hibernate, Spring by annotation
+-- Message not translated (work in XML)
+------------------------------------------------------------------------
+r3 | nmine | 2013-09-22 14:21:14 +0200 (dim., 22 sept. 2013) | 1 line
+
+first import
+------------------------------------------------------------------------
+r2 | nmine | 2013-09-22 14:17:46 +0200 (dim., 22 sept. 2013) | 1 line
+
+first check in
+------------------------------------------------------------------------
+-> log de creation de la branche est la

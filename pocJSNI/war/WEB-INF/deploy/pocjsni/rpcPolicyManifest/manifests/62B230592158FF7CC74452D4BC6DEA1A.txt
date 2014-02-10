@@ -1,0 +1,2 @@
+serviceClass: be.nmine.pocjsni.client.GreetingService
+path: 4520122F06CCD2217D5D75074A2711E0.gwt.rpc

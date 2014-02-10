@@ -1,0 +1,12 @@
+2013-09-03 01:23:08,522 - [INFO] - from play in main 
+Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+
+2013-09-03 01:23:28,331 - [INFO] - from play in play-internal-execution-context-1 
+datasource [jdbc:mysql://localhost:3306/pocplay] bound to JNDI as DefaultDS
+
+2013-09-03 01:23:28,514 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:mysql://localhost:3306/pocplay
+
+2013-09-03 01:23:28,901 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
