@@ -1,9 +1,0 @@
-<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
-<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
-  xmlns:g="urn:import:com.google.gwt.user.client.ui">
-  <g:HTMLPanel>
-	        <g:HTMLPanel tag="p" styleName="text-muted" ui:field="content"/>
-	        <g:Button ui:field="closeLink" styleName="close" />
-	        <g:Button ui:field="detailButton" text="details" styleName="btn btn-primary" />
-  </g:HTMLPanel>
-</ui:UiBinder>
