@@ -1,2 +1,0 @@
-serviceClass: be.credoc.pocjsni.client.GreetingService
-path: 7AA6C41209EBB402CF8C10768581A8FE.gwt.rpc
