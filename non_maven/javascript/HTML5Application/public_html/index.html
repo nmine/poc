@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html ng-app="application">
+    <head>
+        <title>My site</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <script  type="text/javascript" src="js/lib/jquery-1.10.2.js"></script>
+        <script  type="text/javascript" src="js/main.js"></script>
+        <script  type="text/javascript" src="js/canvas.js"></script>
+        <link href="css/main.css" rel="stylesheet" type="text/css">
+        <script src="js/lib/angular.js"></script>
+        <script src="js/lib/angular-route.js"></script>
+        <script src="js/angular/app.js"></script>
+        <script src="js/angular/controllers.js"></script>
+        <link href="css/font-awesome.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="headear-main">
+            <div class="header-top">
+                <nav>
+                    <ul>
+                        <li><a href="#/presentation" id="presentation-link-head" >Presentation</a></li>
+                        <li><a href="#/contact" id="contact-link-head" >Contact</a></li>
+                        <li><a href="#/listing" id="listing-link-head">Listing</a></li>
+                    </ul>
+                </nav>
+                <audio controls class="audio-controls">
+                    <source src="music/FrankSinatra-LetItSnow.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <section class="header-down">
+                <!--<h3 class="title-name">Nicolas Mine</h3>-->
+                <span class="header-name-author">Nicolas  Mine </span>
+                <img class="img-header" src="img/ironman_III.png" alt=""/>
+                <span class="header-name-title">MyTitle</span>
+                <!--<h1 class="title-main">MySite</h1>-->
+                <canvas id="canvas"></canvas>
+            </section>
+
+        </header>
+        <div ng-view></div>
+        <footer class="footer-main">
+            <img src="img/js-logo-badge-256.png" class="js-footer-logo"/>
+            <img src="img/css3_logo.png" class="footer-logo"/>
+            <img src="img/HTML5_Logo.png" class="footer-logo"/>
+            <div class="footer-text">
+                Nicolas Mine 2013
+                <a>n.mine@students.ephec.be</a>
+            </div>
+
+        </footer>
+    </body>
+</html>
