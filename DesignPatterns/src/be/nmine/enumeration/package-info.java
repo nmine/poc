@@ -1,4 +1,0 @@
-/**
- * 
- */
-package be.nmine.enumeration;
